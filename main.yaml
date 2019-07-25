@@ -1,0 +1,8 @@
+- name: Send romeo
+  hosts: all
+
+  tasks:
+  - name: send file
+    copy:
+      src: romeo.txt
+      dest: /home/student/romeo.txt
